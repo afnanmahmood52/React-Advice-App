@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:900');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: url(./images/motive.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-advice{
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    padding: 0 10px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    margin-top: 70px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    width: 60vw;
+    height: 30vh;
+}
+
+.button{
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background: red;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button:hover{
+    background-color: teal;
+}
+
+
+@media only screen and(max-width: 600px){
+    .card{
+        width: 80vw;
+    }
+
+    .main-advice{
+        font-size: 130px;
+    }
+}
+
+
